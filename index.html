@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/style.css">
-        <title>Relógio Digital</title>
+        <title>Relógio Digital com Despertador</title>
     </head>
     <body>
         <div class="relogio">
@@ -23,7 +23,18 @@
                 <span class="tempo">Segundos</span>
             </div>
         </div>
-        
+
+        <div class="card-container">
+            <div class="card">
+              <div class="despertador">
+                <h2>Despertador</h2>
+                <input type="time" id="alarme">
+                <button id="definirAlarme" class="btn">Definir Alarme</button>
+                <audio id="despertadorAudio" src="Som-de-Despertador.mp3"></audio>
+              </div>
+            </div>
+          </div>
+
         <script src="assets/js/script.js"></script>
     </body>
 </html>
