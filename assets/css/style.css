@@ -46,3 +46,90 @@ body {
 .relogio span.tempo {
     font-size: 10px;
 }
+
+.despertador {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.despertador h2 {
+    margin-bottom: 10px;
+}
+
+.despertador input {
+    margin-bottom: 10px;
+}
+
+.despertador button {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    color: #000;
+  }
+  
+  .btn.active {
+    background-color: green;
+    color: #fff;
+  }
+
+  .card-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .card {
+    background-color: #021a1d;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    width: 140px;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card input[type="time"] {
+    padding: 8px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 60%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .card button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: progress;
+    font-size: 16px;
+  }
+  
+  .card button:hover {
+    background-color: #0011ff;
+  }
+  
