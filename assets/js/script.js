@@ -1,6 +1,7 @@
 const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
+
 const alarmeInput = document.getElementById('alarme');
 const definirAlarmeBtn = document.getElementById('definirAlarme');
 const despertadorAudio = document.getElementById('despertadorAudio');
